@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanzamiento Interactivo</title>
+    
+    <meta property="og:title" content="Pablo Comas - Nuevo Lanzamiento">
+    <meta property="og:image" content="flyer.png"> 
+    <meta property="og:type" content="website">
+  <style>
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: #f8f4f1; display: flex; justify-content: center; }
+        .container { 
+            position: relative; 
+            height: 100vh; 
+            aspect-ratio: 9 / 12; 
+            background-image: url('CANTAR-DIASdeFUERZA.png'); 
+            background-size: contain; 
+            background-repeat: no-repeat; 
+            background-position: center; 
+        }
 
+        /* Guía visual: Cambia 'rgba(255, 0, 0, 0.3)' a 'transparent' cuando verifiques que los botones calzan */
+        .btn { position: absolute; cursor: pointer; background: rgba(255, 0, 0, 0.3); } 
+        
+        /* COORDENADAS PRECISAS PARA TUS ICONOS */
+        
+        /* Spotify: Superior derecha */
+        #spotify   { top: 44.5%; left: 77%; width: 16%; height: 10%; border-radius: 50%; }
+        
+        /* YouTube: Centro derecha */
+        #youtube   { top: 53.5%; left: 58.5%; width: 17%; height: 9%; border-radius: 12px; }
+        
+        /* Bandcamp: Inferior derecha */
+        #bandcamp  { top: 62.5%; left: 74%; width: 19%; height: 9%; }
+        
+        /* Cancionero: Abajo al lado de la palabra */
+        #cancionero { top: 82.5%; left: 56%; width: 23%; height: 10%; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="https://open.spotify.com/intl-es/album/1nUsrHp8qdzSceZUIzs1yX?si=jm19jKIdR9yTNMeLEwQpoQ" id="spotify" class="btn" target="_blank"></a>
+        <a href="https://youtu.be/Ul-U2uWFk5g?si=DYzEIBrEN55gqLMH" id="youtube" class="btn" target="_blank"></a>
+        <a href="https://pablocomas.bandcamp.com/album/alucinaria-d-as-de-fuerza-lp-2016" id="bandcamp" class="btn" target="_blank"></a>
+        <a href="https://pablocomasletras.github.io/Dias-de-Fuerza/" id="cancionero" class="btn"></a>
+            </div>
+
+</body>
+</html>
