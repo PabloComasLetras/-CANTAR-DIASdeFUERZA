@@ -34,10 +34,12 @@
         .btn { position: absolute; cursor: pointer; background: transparent; } 
         
         /* Coordenadas relativas re-calibradas para el nuevo contenedor */
-        #spotify   { top: 46%; left: 78%; width: 14%; height: 8%; border-radius: 50%; }
-        #youtube   { top: 54.5%; left: 60%; width: 16%; height: 7%; border-radius: 10px; }
-        #bandcamp  { top: 62.5%; left: 75%; width: 18%; height: 7%; }
-        #cancionero { top: 76%; left: 57%; width: 22%; height: 12%; }  
+        /* Coordenadas corregidas por posición relativa */
+        #spotify    { top: 46%; left: 78%; width: 14%; height: 8%; border-radius: 50%; } /* Este queda igual */
+        #youtube    { top: 52%; left: 60%; width: 16%; height: 7%; border-radius: 10px; } /* Subido de 54.5% a 52% */
+        #bandcamp   { top: 58%; left: 75%; width: 18%; height: 7%; } /* Subido de 62.5% a 58% */
+        #cancionero { top: 68%; left: 57%; width: 22%; height: 12%; } /* Subido de 76% a 68% */
+    
     
 </style>
  
