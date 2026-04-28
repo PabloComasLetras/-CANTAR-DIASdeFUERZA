@@ -8,35 +8,40 @@
     <meta property="og:title" content="Pablo Comas -a cantar 10 años de Días de Fuerza">
     <meta property="og:image" content="CANTAR-DIASdeFUERZA.png"> 
     <meta property="og:type" content="website">
-  <style>
-        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: #f8f4f1; display: flex; justify-content: center; }
-        .container  .container { 
-            position: relative; 
-            width: 100vw; /* Ocupa el 100% del ancho de la pantalla */
-            height: 100vh; /* Ocupa el 100% del alto de la pantalla */
-            background-image: url('CANTAR-DIASdeFUERZA.png'); 
-            background-size: contain; /* Obliga a la imagen a achicarse hasta que quepa entera, tanto de ancho como de alto */
-            background-repeat: no-repeat; 
-            background-position: center; 
-        }
-
-        /* Guía visual: Cambia 'rgba(255, 0, 0, 0.3)' a 'transparent' cuando verifiques que los botones calzan */
-        .btn { position: absolute; cursor: pointer; background: background: transparent; } 
-        
-        /* COORDENADAS PRECISAS PARA TUS ICONOS */
-        
-        /* Spotify: Superior derecha */
-        #spotify   { top: 44.5%; left: 77%; width: 16%; height: 10%; border-radius: 50%; }
-        
-        /* YouTube: Centro derecha */
-        #youtube   { top: 53.5%; left: 58.5%; width: 17%; height: 9%; border-radius: 12px; }
-        
-        /* Bandcamp: Inferior derecha */
-        #bandcamp  { top: 62.5%; left: 74%; width: 19%; height: 9%; }
-        
-        /* Cancionero: Abajo al lado de la palabra */
-        #cancionero { top: 77%; left: 56%; width: 23%; height: 14%; }
-    </style>
+    <style>
+    body, html { 
+        margin: 0; 
+        padding: 0; 
+        width: 100%; 
+        height: 100%; 
+        overflow: hidden; 
+        background-color: #f8f4f1; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+    .container { 
+        position: relative; 
+        width: 100vw; 
+        height: 100vh; 
+        background-image: url('CANTAR-DIASdeFUERZA.png'); 
+        background-size: contain; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+    }
+    .btn { 
+        position: absolute; 
+        cursor: pointer; 
+        background: transparent; 
+    }
+    /* Coordenadas de precisión */
+    #spotify   { top: 44.5%; left: 77%; width: 16%; height: 10%; border-radius: 50%; }
+    #youtube   { top: 53.5%; left: 58.5%; width: 17%; height: 9%; border-radius: 12px; }
+    #bandcamp  { top: 62.5%; left: 74%; width: 19%; height: 9%; }
+    #cancionero { top: 77%; left: 56%; width: 23%; height: 14%; }
+</style>
+ 
+    
 </head>
 <body>
 
@@ -46,6 +51,5 @@
         <a href="https://pablocomas.bandcamp.com/album/alucinaria-d-as-de-fuerza-lp-2016" id="bandcamp" class="btn" target="_blank"></a>
         <a href="https://pablocomasletras.github.io/Dias-de-Fuerza/" id="cancionero" class="btn"></a>
             </div>
-
 </body>
 </html>
