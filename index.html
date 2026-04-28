@@ -20,25 +20,25 @@
         justify-content: center; 
         align-items: center; 
     }
-    .container { 
-        position: relative; 
-        width: 100vw; 
-        height: 100vh; 
-        background-image: url('CANTAR-DIASdeFUERZA.png'); 
-        background-size: contain; 
-        background-repeat: no-repeat; 
-        background-position: center; 
-    }
-    .btn { 
-        position: absolute; 
-        cursor: pointer; 
-        background: transparent; 
-    }
-    /* Coordenadas de precisión */
-    #spotify   { top: 44.5%; left: 77%; width: 16%; height: 10%; border-radius: 50%; }
-    #youtube   { top: 53.5%; left: 58.5%; width: 17%; height: 9%; border-radius: 12px; }
-    #bandcamp  { top: 62.5%; left: 74%; width: 19%; height: 9%; }
-    #cancionero { top: 77%; left: 56%; width: 23%; height: 14%; }
+      .container { 
+            position: relative; 
+            width: 100%; 
+            max-width: 500px; /* Ajuste para ancho de celular estándar */
+            aspect-ratio: 9 / 16; /* Proporción vertical de Canva */
+            background-image: url('CANTAR-DIASdeFUERZA.png'); 
+            background-size: contain; 
+            background-repeat: no-repeat; 
+            background-position: center; 
+        }
+
+        .btn { position: absolute; cursor: pointer; background: transparent; } 
+        
+        /* Coordenadas relativas re-calibradas para el nuevo contenedor */
+        #spotify   { top: 46%; left: 78%; width: 14%; height: 8%; border-radius: 50%; }
+        #youtube   { top: 54.5%; left: 60%; width: 16%; height: 7%; border-radius: 10px; }
+        #bandcamp  { top: 62.5%; left: 75%; width: 18%; height: 7%; }
+        #cancionero { top: 76%; left: 57%; width: 22%; height: 12%; }  
+    
 </style>
  
     
